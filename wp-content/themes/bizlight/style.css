@@ -77,8 +77,61 @@ Site Styling
 /* 1 Normalize */
 /* --------------------------------------- */
 
+div#rpt_pricr {
+	text-align: center;
+}
+
+div.rpt_plan {
+   max-width:273px;
+   margin: auto;
+   float: none !important;
+   display: inline-block !important;
+}
+
+.rpt_style_basic .rpt_plan .rpt_foot {
+    display: none !important;
+}
+
+.rpt_style_basic .rpt_plan .rpt_features {
+    background: #ffffff !important;
+}
+
+.rpt_style_basic .rpt_plan .rpt_features .rpt_feature {
+    position: relative !important;
+}
+
+.undertabletext{
+    text-align:center;
+}
+
+.asteriscodoppio {
+    width: 10px;
+    position: relative;
+    bottom: 5px;
+    margin: 0px !important;
+}
+
+.asterischi {
+    width: 10px;
+    position: relative;
+    bottom: 5px;
+    margin: 0px !important;
+}
+
 .centeredmarketing{
     color: #333 !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em !important;
+    line-height: 70px;
+    font-family: 'MyriadPro';
+}
+.centeredmarketingp{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em !important;
+	line-height:49px;
+	font-family: 'MyriadPro';
 }
 
 /* CONTACT FORM */
@@ -2525,6 +2578,33 @@ body.home .block-section{
 @media screen and (max-width: 767px) {
 	
 	/* START MOBILE VERSION*/
+	
+		.diventapartnerbutton {
+    position: relative;
+    background: rgba(27,139,66,1);
+    background: -moz-linear-gradient(top, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 1%, rgba(0,0,0,1) 99%, rgba(17,17,17,1) 99%, rgba(71,71,71,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(27,139,66,1)), color-stop(0%, rgba(27,139,66,1)), color-stop(0%, rgba(27,139,66,1)), color-stop(0%, rgba(27,139,66,1)), color-stop(1%, rgba(27,139,66,1)), color-stop(99%, rgba(0,0,0,1)), color-stop(99%, rgba(17,17,17,1)), color-stop(100%, rgba(71,71,71,1)));
+    background: -webkit-linear-gradient(top, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 1%, rgba(0,0,0,1) 99%, rgba(17,17,17,1) 99%, rgba(71,71,71,1) 100%);
+    background: -o-linear-gradient(top, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 1%, rgba(0,0,0,1) 99%, rgba(17,17,17,1) 99%, rgba(71,71,71,1) 100%);
+    background: -ms-linear-gradient(top, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 1%, rgba(0,0,0,1) 99%, rgba(17,17,17,1) 99%, rgba(71,71,71,1) 100%);
+    background: linear-gradient(to bottom, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 0%, rgba(27,139,66,1) 1%, rgba(0,0,0,1) 99%, rgba(17,17,17,1) 99%, rgba(71,71,71,1) 100%);
+        padding: 12px 33px 11px 32px !important;
+    color:#fff !important;
+}
+
+.diventapartnerbutton:hover {
+    color:#fff !important;
+   filter: contrast(150%);
+}
+.diventapartnerbuttonround {
+    border-radius: 5px !important;
+}
+
+.diventapartnerbuttonsquare {
+   box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+   height:44px !important;
+}
+	
 	
 	.titolo,.sottotitolo{
  position:relative;

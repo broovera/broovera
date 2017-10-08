@@ -315,13 +315,6 @@ function do_we_want_to_use_logo() {
 
 add_filter('show_admin_bar', '__return_false');
 
-function sp_clean_static_url($content) {
-   $thisURL = get_bloginfo('url');
-   $stuff = str_replace(' src=\"'.$thisURL, ' src=\"', $content );
-   $stuff = str_replace(' href=\"'.$thisURL, ' href=\"', $stuff );
-	return $stuff;
-}
-add_filter('content_save_pre','sp_clean_static_url','99');
 
 function diventa_partner_round() {
 	ob_start();
