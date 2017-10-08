@@ -322,3 +322,42 @@ function sp_clean_static_url($content) {
 	return $stuff;
 }
 add_filter('content_save_pre','sp_clean_static_url','99');
+
+function diventa_partner_round() {
+	ob_start();
+	?>
+	 <a class="diventapartnerbutton diventapartnerbuttonround"  href="<?php echo get_home_url(); ?>/start">
+		Diventa Partner</button>
+	</a>
+   <?php 
+	$output_string = ob_get_contents();
+	ob_end_clean();
+	return $output_string;
+}
+add_shortcode( 'diventa-partner-round', 'diventa_partner_round' );
+
+function diventa_partner_square() {
+	ob_start();
+	?>
+	 <a class="diventapartnerbutton diventapartnerbuttonsquare"  href="<?php echo get_home_url(); ?>/start">
+		Diventa Partner</button>
+	</a>
+   <?php 
+	$output_string = ob_get_contents();
+	ob_end_clean();
+	return $output_string;
+}
+add_shortcode( 'diventa-partner-square', 'diventa_partner_square' );
+
+function iniziadaqui_square() {
+	ob_start();
+	?>
+	 <a class="diventapartnerbutton iniziadqui diventapartnerbuttonsquare"  href="<?php echo get_home_url(); ?>/start">
+		Inizia da qui!</button>
+	</a>
+   <?php 
+	$output_string = ob_get_contents();
+	ob_end_clean();
+	return $output_string;
+}
+add_shortcode( 'iniziadaqui-square', 'iniziadaqui_square' );

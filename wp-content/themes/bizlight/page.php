@@ -42,4 +42,7 @@ get_header(); ?>
 
 	<?php get_sidebar(); ?>
 </div><!-- #content -->
+			<section class="greysectionbottom" style="background-color:#f2f2f2; padding-top:50px; padding-bottom:50px;">
+			<?php the_field('grey_section_content'); ?>
+			</section>
 <?php get_footer(); ?>
