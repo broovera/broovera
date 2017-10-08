@@ -2130,6 +2130,13 @@ article.hentry .image-full{
 	
 	/*START DESKTOP VERSION*/
 	
+	.aniimmobile{
+		display:none;
+	}
+	.aniidesktop{
+		display:block;
+	}
+	
 	.diventapartnerbutton {
     position: relative;
     background: rgba(27,139,66,1);
@@ -2578,6 +2585,12 @@ body.home .block-section{
 @media screen and (max-width: 767px) {
 	
 	/* START MOBILE VERSION*/
+		.aniimmobile{
+		display:block;
+	}
+	.aniidesktop{
+		display:none;
+	}
 	
 		.diventapartnerbutton {
     position: relative;
