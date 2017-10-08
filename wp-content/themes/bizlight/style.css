@@ -77,6 +77,10 @@ Site Styling
 /* 1 Normalize */
 /* --------------------------------------- */
 
+.rpt_style_basic .rpt_plan .rpt_features .rpt_feature {
+    text-align: left !important;
+}
+
 div#rpt_pricr {
 	text-align: center;
 }
@@ -2130,6 +2134,67 @@ article.hentry .image-full{
 	
 	/*START DESKTOP VERSION*/
 	
+	.grid-first-row{
+	  display: flex;
+	  width: 100%;
+	}
+	.grid-second-row{
+	  display: flex;
+	  width: 100%;
+	}
+	.food{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b1.png');
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:50%;
+		margin-right: 5px;
+		background-position:center;
+		height:500px;
+	}
+	.food:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/1-min.png');
+	}
+	.wellness{
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:50%;
+		margin-left: 5px;
+	    height:500px;
+	    background-position:center;
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b2.png');
+	}
+	.wellness:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/2-min.png');
+	}
+	.health{
+		background-repeat:no-repeat;
+		width:50%;
+		margin-right: 5px;
+		background-position:center;
+		background-size:cover;
+	    height:500px;
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b3.png');
+	}
+	.health:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/3-min.png');
+	}
+	.business{
+		background-repeat:no-repeat;
+		width:50%;
+		margin-left: 5px;
+		background-position:center;
+	    height:500px;
+	    background-size:cover;
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b4.png');
+	}
+	.business:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/4-min.png');
+	}
+	
+	.diventa-partner-menu-button a{
+		color:#fff !important;
+	}
+	
 	.aniimmobile{
 		display:none;
 	}
@@ -2585,6 +2650,73 @@ body.home .block-section{
 @media screen and (max-width: 767px) {
 	
 	/* START MOBILE VERSION*/
+	
+	
+		.grid-first-row{
+	  display: block;
+	  width: 100%;
+	}
+	.grid-second-row{
+	  display: block;
+	  width: 100%;
+	}
+	.food{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b1.png');
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:100%;
+		margin-right: 5px;
+		margin-left:5px;
+		margin-top:10px;
+		background-position:center;
+		height:350px;
+	}
+	.food:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/1-min.png');
+	}
+	.wellness{
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:100%;
+		margin-right: 5px;
+		margin-left:5px;
+		margin-top:10px;
+	    height:350px;
+	    background-position:center;
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b2.png');
+	}
+	.wellness:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/2-min.png');
+	}
+	.health{
+		background-repeat:no-repeat;
+		width:100%;
+		margin-right: 5px;
+		margin-left:5px;
+		margin-top:10px;
+		background-position:center;
+		background-size:cover;
+	    height:350px;
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b3.png');
+	}
+	.health:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/3-min.png');
+	}
+	.business{
+		background-repeat:no-repeat;
+		width:100%;
+		margin-right: 5px;
+		margin-left:5px;
+		margin-top:10px;
+		background-position:center;
+	    height:350px;
+	    background-size:cover;
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b4.png');
+	}
+	.business:hover{
+		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/4-min.png');
+	}
+	
 		.aniimmobile{
 		display:block;
 	}

@@ -124,6 +124,28 @@ if (!function_exists('bizlight_home_about')) :
                         </div>
                     </div>
             </section><!-- about section -->
+            <div style="clear: both"></div>
+            <section class="greysectionbottom" style="background-color:#f2f2f2; padding-top:50px; padding-bottom:50px;">
+				<div class="grid-first-row">
+				   <a href="<?php echo(get_home_url()."/start");?>"></a>
+				   <div class="food gridpicture"></div>
+				   </a>
+				   <a href="<?php echo(get_home_url()."/start");?>">
+				      <div class="wellness gridpicture"></div>
+				   </a>
+				</div>
+				<div style="clear: both; height:10px;"></div>
+				<div class="grid-second-row">
+				   <a href="<?php echo(get_home_url()."/start");?>">
+				      <div class="health gridpicture"></div>
+				   </a>
+				   <a href="<?php echo(get_home_url()."/start");?>">
+				      <div class="business gridpicture"></div>
+				   </a>
+				</div>
+				<div style="clear: both; height:80px;"></div>
+				<?php the_field('grey_section_content'); ?>
+			</section>
             <?php
         }
         ?>
