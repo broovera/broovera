@@ -2168,6 +2168,15 @@ article.hentry .image-full{
     margin-left: 14% !important;
 	}
 	
+	.borderedtitle {
+    color: #1b8b42;
+    font-size: 35px !important;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    line-height: 35px;
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 1), 1px 1px 0px rgba(0, 0, 0, 1);
+}
+	
 	.scrittaimmagini{
 	color:#fff;
 	font-size: 40px;
