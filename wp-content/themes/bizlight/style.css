@@ -77,6 +77,37 @@ Site Styling
 /* 1 Normalize */
 /* --------------------------------------- */
 
+.row {
+    position: relative;
+}
+.row-photo {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.row-photo iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.row-photo.img_left {
+    left: 0;
+    right: auto;
+}
+.content-wrap.img_left {
+    float: right;
+}
+.row-photo.img_right {
+    right: 0;
+    left: auto;
+    padding: 0px;
+}
+.content-wrap.img_right {
+    float: left;
+}
+
 .rpt_style_basic .rpt_plan .rpt_features .rpt_feature {
     text-align: left !important;
 }
@@ -2133,6 +2164,22 @@ article.hentry .image-full{
 @media screen and (min-width: 768px){
 	
 	/*START DESKTOP VERSION*/
+	.col-xs-12.col-sm-10.col-md-9.col-sm-offset-1.col-md-offset-2.banner-content {
+    margin-left: 14% !important;
+	}
+	
+	.scrittaimmagini{
+	color:#fff;
+	font-size: 40px;
+    font-family: 'MyriadPro-Bold' !important;
+    line-height:57px;
+    font-weight:300;
+    text-shadow: 4px 3px 0px rgba(0, 0, 0, 1), 4px 3px 0px rgba(0, 0, 0, 1);
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	}
 	
 	.grid-first-row{
 	  display: flex;
@@ -2142,12 +2189,21 @@ article.hentry .image-full{
 	  display: flex;
 	  width: 100%;
 	}
+	
+	.gridpicture{
+	  position:relative;
+	      transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+	}
+	
 	.food{
 		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b1.png');
 		background-repeat:no-repeat;
 		background-size:cover;
 		width:50%;
-		margin-right: 5px;
+		margin-right: 4px;
+		cursor:pointer;
 		background-position:center;
 		height:500px;
 	}
@@ -2158,8 +2214,9 @@ article.hentry .image-full{
 		background-repeat:no-repeat;
 		background-size:cover;
 		width:50%;
-		margin-left: 5px;
+		margin-left: 4px;
 	    height:500px;
+	    cursor:pointer;
 	    background-position:center;
 		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b2.png');
 	}
@@ -2169,7 +2226,8 @@ article.hentry .image-full{
 	.health{
 		background-repeat:no-repeat;
 		width:50%;
-		margin-right: 5px;
+		margin-right: 4px;
+		cursor:pointer;
 		background-position:center;
 		background-size:cover;
 	    height:500px;
@@ -2181,8 +2239,9 @@ article.hentry .image-full{
 	.business{
 		background-repeat:no-repeat;
 		width:50%;
-		margin-left: 5px;
+		margin-left: 4px;
 		background-position:center;
+		cursor:pointer;
 	    height:500px;
 	    background-size:cover;
 		background-image:url('http://localhost/broovera/wp-content/uploads/2017/10/b4.png');
@@ -2650,9 +2709,46 @@ body.home .block-section{
 @media screen and (max-width: 767px) {
 	
 	/* START MOBILE VERSION*/
+		.gridpicture{
+	  position:relative;
+	  width: 90% !important;
+	  margin: auto !important; 
+	}
 	
+	.wellness, .business{
+	margin-top:8px !important;
+	}
 	
-		.grid-first-row{
+		.scrittaimmagini{
+	color:#fff;
+	font-size: 40px;
+    font-family: 'MyriadPro-Bold' !important;
+    line-height:57px;
+    font-weight:300;
+    width: 100%;
+    text-align: center;
+    text-shadow: 4px 3px 0px rgba(0, 0, 0, 1), 4px 3px 0px rgba(0, 0, 0, 1);
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	}
+	
+	    .bg .content-box,
+    .clean .content-box { padding: 20px; }
+    
+    section.bg { background-attachment: scroll; }
+    
+    .row-photo { 
+        position: relative;
+        float: left;
+        width: 100%; 
+        height: 0; 
+        padding-bottom: 60% !important; 
+        background-size: cover;
+    }
+    
+	.grid-first-row{
 	  display: block;
 	  width: 100%;
 	}

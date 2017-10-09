@@ -126,25 +126,24 @@ if (!function_exists('bizlight_home_about')) :
             </section><!-- about section -->
             <div style="clear: both"></div>
             <section class="greysectionbottom" style="background-color:#f2f2f2; padding-top:50px; padding-bottom:50px;">
-				<div class="grid-first-row">
-				   <a href="<?php echo(get_home_url()."/start");?>"></a>
-				   <div class="food gridpicture"></div>
-				   </a>
-				   <a href="<?php echo(get_home_url()."/start");?>">
-				      <div class="wellness gridpicture"></div>
-				   </a>
-				</div>
-				<div style="clear: both; height:10px;"></div>
-				<div class="grid-second-row">
-				   <a href="<?php echo(get_home_url()."/start");?>">
-				      <div class="health gridpicture"></div>
-				   </a>
-				   <a href="<?php echo(get_home_url()."/start");?>">
-				      <div class="business gridpicture"></div>
-				   </a>
+				<a href="<?php echo(get_home_url().'/start');?>">
+					<div class="grid-first-row">
+					   <div class="food gridpicture"><p class="scrittaimmagini">Food & Beverage</p></div>
+					   <div class="wellness gridpicture"><p class="scrittaimmagini">Wellness & Beauty</p></div>
+					</div>
+				</a>
+				<div style="clear: both; height:8px;"></div>
+				<a href="<?php echo(get_home_url().'/start');?>">
+					<div class="grid-second-row">	
+					     <div class="health gridpicture"><p class="scrittaimmagini">Health</p></div>
+					     <div class="business gridpicture"><p class="scrittaimmagini">Business</p></div>
+					</div>
+				</a>
+
 				</div>
 				<div style="clear: both; height:80px;"></div>
 				<?php the_field('grey_section_content'); ?>
+				<div style="clear: both; height:40px;"></div>
 			</section>
             <?php
         }
