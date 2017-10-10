@@ -54,6 +54,9 @@ get_header(); ?>
 		   <div class="col-sm-6 col-xs-12 row-photo img_left" style="background-image: url('<?php the_field('immagine_servizi_aggiuntivi');?>');"></div>
 		</div>
 		</section>
+		<div style="margin-top: 80px; margin-bottom:80px;">
+			<p style="text-align: center;"><?php echo do_shortcode('[diventa-partner-square]'); ?></p>
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	<?php get_sidebar(); ?>
