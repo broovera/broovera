@@ -319,8 +319,8 @@ add_filter('show_admin_bar', '__return_false');
 function diventa_partner_round() {
 	ob_start();
 	?>
-	 <a class="diventapartnerbutton diventapartnerbuttonround"  href="<?php echo get_home_url(); ?>/diventa-partner">
-		Diventa Partner</button>
+	 <a class="diventapartnerbutton diventapartnerbuttonround"  href="<?php echo get_home_url(); ?>/start">
+		Become Partner</button>
 	</a>
    <?php 
 	$output_string = ob_get_contents();
@@ -332,8 +332,8 @@ add_shortcode( 'diventa-partner-round', 'diventa_partner_round' );
 function diventa_partner_square() {
 	ob_start();
 	?>
-	 <a class="diventapartnerbutton diventapartnerbuttonsquare"  href="<?php echo get_home_url(); ?>/diventa-partner">
-		Diventa Partner</button>
+	 <a class="diventapartnerbutton diventapartnerbuttonsquare"  href="<?php echo get_home_url(); ?>/start">
+		Become Partner</button>
 	</a>
    <?php 
 	$output_string = ob_get_contents();
@@ -345,8 +345,8 @@ add_shortcode( 'diventa-partner-square', 'diventa_partner_square' );
 function iniziadaqui_square() {
 	ob_start();
 	?>
-	 <a class="diventapartnerbutton iniziadqui diventapartnerbuttonsquare"  href="<?php echo get_home_url(); ?>/diventa-partner">
-		Inizia da qui! </button>
+	 <a class="diventapartnerbutton iniziadqui diventapartnerbuttonsquare"  href="<?php echo get_home_url(); ?>/start">
+		Start from here!</button>
 	</a>
    <?php 
 	$output_string = ob_get_contents();

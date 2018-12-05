@@ -17,6 +17,9 @@ get_header(); ?>
 #primary {
     width: 100% !important;
 }
+iframe {
+    width: 100% !important;
+}
 
 @media screen and (max-width: 991px){
     .dividest{
@@ -25,7 +28,7 @@ get_header(); ?>
 }
 </style>
 <div class="dividest"></div>
-<?php echo do_shortcode('[pdfviewer]https://broovera.com/wp-content/uploads/2018/12/DPIA.pdf[/pdfviewer]'); ?>
+<?php echo do_shortcode('[pdfviewer]https://broovera.com/en/wp-content/uploads/2018/12/DPIA.pdf[/pdfviewer]'); ?>
 <!-- #primary -->
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

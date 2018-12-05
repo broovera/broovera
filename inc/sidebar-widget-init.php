@@ -23,7 +23,7 @@ function bizlight_widgets_init() {
             'description' => __('Displays items on footer section.','bizlight'),
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',
             'after_widget' => '</aside>',
-            'before_title'  => '<h1 class="widget-title">',
+            'before_title'  => '<div class="languages-footer-switch-mobile" style="position: absolute; right: 14px;"><a class="linkita" href="https://broovera.com" data-slimstat="5"><img src="https://broovera.com/loghi/broovera_italy_2.svg"></a><a class="linkeng" href="https://broovera.com/en" data-slimstat="5"><img src="https://broovera.com/loghi/broovera_england_2.svg"></a></div><h1 class="widget-title">',
             'after_title'   => '</h1>',
         ));
         register_sidebar(array(

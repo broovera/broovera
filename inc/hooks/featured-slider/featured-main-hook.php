@@ -150,7 +150,7 @@ if ( ! function_exists( 'bizlight_featured_slider' ) ) :
 													if (do_we_want_to_use_logo()) {
 										  		    ?>
 													   <div <?php if($i==1){echo('class="eds-animate animated bounceIn" data-eds-entry-animation="bounceIn" data-eds-entry-delay="0" data-eds-entry-duration="1" data-eds-entry-timing="linear" data-eds-exit-animation="" data-eds-exit-delay="" data-eds-exit-duration="" data-eds-exit-timing="" data-eds-repeat-count="" data-eds-keep="yes" data-eds-animate-on="load" data-eds-scroll-offset="75" style="animation-duration: 1s; animation-delay: 0s; animation-timing-function: linear; animation-iteration-count: 1;"');}?>>
-													   <img id="logo-in-the-middle" src="<?php echo($logoLink); ?>">
+													   <img id="logo-in-the-middle" src="http://broovera.com/loghi/LOGO_BIANCO-cornice-nera.svg">
 													   </div>
 										  		    <?php
 										            }
@@ -167,8 +167,8 @@ if ( ! function_exists( 'bizlight_featured_slider' ) ) :
                                                             <?php echo wp_kses_post( $bizlight_slider_array['bizlight-fs-content'] ); ?>
                                                         </p>
                                                     </div>
-                                                    <a class="diventapartnerroundbutton" href="<?php echo get_home_url()."/diventa-partner" ?>">
-                                                        <?php _e('Diventa Partner', 'bizlight'); ?>
+                                                    <a class="diventapartnerroundbutton" href="<?php echo get_home_url()."/start" ?>">
+                                                        <?php _e('Become Partner', 'bizlight'); ?>
                                                     </a>
                                                     <?php
                                                     if( 1 == $bizlight_customizer_all_values['bizlight-fs-enable-button'] ){

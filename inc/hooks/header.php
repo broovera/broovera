@@ -164,32 +164,35 @@ border: none !important;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://broovera.com"><img style="bottom:8px !important;" id="logo-in-the-title" src="http://broovera.com/loghi/LOGO_BIANCO-cornice-nera.svg"></a>
+      <a class="navbar-brand" href="http://broovera.com"><img id="logo-in-the-title" src="http://broovera.com/loghi/LOGO_BIANCO-cornice-nera.svg"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="http://broovera.com">Homepage</a></li>
+        <li><a href="http://broovera.com/en">Homepage</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servizi<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="https://broovera.com/tutti-i-servizi/">Tutti i Servizi</a></li>
-            <li><a href="https://broovera.com/servizi-website/">Website Services</a></li>
-            <li><a href="https://broovera.com/pagine-network/">Pagine Network</a></li>
-            <li><a href="https://broovera.com/marketing/">Marketing</a></li>
-            <li><a href="https://broovera.com/servizi-aggiuntivi/">Servizi Aggiuntivi</a></li>
+            <li><a href="https://broovera.com/en/all-our-services/">All our Services</a></li>
+            <li><a href="https://broovera.com/en/website-services/">Website Services</a></li>
+            <li><a href="https://broovera.com/en/network-pages/">Network Pages</a></li>
+            <li><a href="https://broovera.com/en/marketing/">Marketing</a></li>
+            <li><a href="https://broovera.com/en/add-on/">Add-on</a></li>
           </ul>
         </li>
          <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Azienda<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="https://broovera.com/mission/">Mission</a></li>
-            <li><a href="https://broovera.com/lavora-con-noi/">Lavora con Noi</a></li>
-            <li><a href="https://broovera.com/contatti/">Contatti</a></li>
+            <li><a href="https://broovera.com/en/mission/">Mission</a></li>
+            <li><a href="https://broovera.com/en/career/">Career</a></li>
+            <li><a href="https://broovera.com/en/contact-us/">Contact us</a></li>
           </ul>
         </li>
-        <li><a href="https://broovera.com/diventa-partner/">Diventa Partner</a></li>
+        
+        <li><a href="https://broovera.com/diventa-partner/">Become Partner</a></li>
+        <li><a class="linkita" href="https://broovera.com"><img src="https://broovera.com/loghi/broovera_italy_2.svg"></a></li>
+        <li><a class="linkeng" href="#"><img src="http://broovera.com/loghi/broovera_england_2.svg"></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

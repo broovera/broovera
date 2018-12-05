@@ -98,7 +98,11 @@ jQuery('.open-dynamic-modal').click(function(){
 jQuery('.wpcf7-form p').not(":has(img)").addClass('toTop');
 </script>
 
-
+<style>
+    #dynamic-modal .errorformlogoformbrooveraimg {
+	top:15px !important;
+}
+</style>
 
 
         <div class="modal fade" id="dynamic-modal" tabindex="-1" role="dialog" aria-labelledby="DynamicModal" aria-hidden="true">
@@ -116,5 +120,18 @@ jQuery('.wpcf7-form p').not(":has(img)").addClass('toTop');
                 </div>
             </div>
         </div>
+<script>
+    var traduzione='<?php echo(the_field("link_alla_pagina_tradotta")); ?>';
+    var pagina='<?php
+        global $wp;
+        echo home_url( $wp->request )
+    ?>';
+    console.log(pagina);
+    jQuery( document ).ready(function() {
+        jQuery(".icona-traduzione-menu a").attr("href",traduzione);
+        jQuery(".linkita").attr("href",traduzione);
+        jQuery(".linkeng").attr("href",pagina);
+    });
+</script>
 </body>
 </html>

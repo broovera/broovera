@@ -85,7 +85,7 @@ if ( ! function_exists( 'bizlight_footer' ) ) :
             }
             ?>
             <div class="copyright">
-                <a class="navbar-brand" href="<?php echo(get_home_url()); ?>" title="Broovera"><img style="max-width:115px; position: relative; bottom: 1px;" src="http://broovera.com/loghi/LOGO_BIANCO-cornice-nera.svg"></a>
+                <a class="navbar-brand" href="<?php echo(get_home_url()); ?>" title="Broovera"><img style="max-width:115px; position: relative; bottom: 1px;" src="https://broovera.com/loghi/LOGO_BIANCO-cornice-nera.svg"></a>
                 <p class="navbar-brand-p" ><?php
                 if(isset($bizlight_customizer_all_values['bizlight-copyright-text'])){
                     echo wp_kses_post( $bizlight_customizer_all_values['bizlight-copyright-text'] );

@@ -60,11 +60,25 @@ do_action( 'bizlight_action_before_head' );?>
   src="https://www.facebook.com/tr?id=1492339297487637&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<script>
+ /*       var traduzione='<?php echo(the_field("link_alla_pagina_tradotta")); ?>';
+        var pagina='<?php
+            global $wp;
+            echo home_url( $wp->request )
+        ?>';
+        console.log(traduzione);
+        var userLang = navigator.language || navigator.userLanguage;
+        console.log(userLang);
+        if(userLang==="it-IT"){
+           window.location.replace(traduzione);
+        }else{
+        }*/
+</script>
 </head>
 
 <body <?php body_class(); ?>>
     <div class="side_widget animated bounce duration3 open-dynamic-modal">
-<div class="side_widget_btn">CONTATTACI ORA <i class="fa fa-envelope"></i></div> 
+<div class="side_widget_btn">LEAVE A MESSAGE <i class="fa fa-envelope"></i></div> 
 ...
 </div> 
 </div>

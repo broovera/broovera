@@ -135,7 +135,7 @@ span.ctcc-left-side {
    position:relative;
 }
 .page-id-53 .undertabletext {
-    bottom: 20px !important;
+    bottom: 44px !important;
 }
 .rpt_3_plans .rpt_plan_2 {
     border-top-left-radius: 8px;
@@ -1108,7 +1108,18 @@ body.home .page-inner-title {
   }
 }
 @media only screen and (max-width: 991px){
+
+  .aziendalink2{
+    padding:0px;
+    position: relative;
+    bottom: 18px;
+  }
   
+  .linkita img, .linkeng img {
+    width: 60px;
+    padding-bottom: 10px;
+  }
+
   .site-title,
   .site-title a{
     text-align: left;
@@ -1172,7 +1183,7 @@ body.home .page-inner-title {
   text-decoration: none;
   font-family: 'MyriadPro';
   font-size: 15px;
-  padding: 17px 18px;
+  padding: 10.5px 18px;
   position: relative;
 }
 .main-navigation ul ul {
@@ -1260,7 +1271,7 @@ body.home .page-inner-title {
 @media screen and (min-width: 992px){
     #dynamic-modal .modal-body .wpcf7-form {
     width: 339px !important;
-    min-height:795.433px !important;
+    min-height:677px !important;
     margin: 0 auto;
 }
     
@@ -1813,6 +1824,16 @@ body.home .page-inner-title {
   }
 }
 @media screen and (max-width: 991px){
+    img#logo-in-the-title {
+    bottom: 8px !important;
+}
+.languages-footer-switch-mobile .linkita {
+    margin-right: 10px;
+}
+
+.footer-languages-links{
+    display:none;    
+}
     #slidecontainerlogo{
    height:150px !important;
    bottom: 12px;
@@ -1958,8 +1979,8 @@ article.hentry .image-full{
 }
     
         #dynamic-modal .modal-body .wpcf7-form {
-    width: 330px !important;
-    min-height:787px !important;
+    width: 260px !important;
+    min-height:677px !important;
     margin: 0 auto;
 }
     
@@ -2703,7 +2724,7 @@ nav#site-navigation ul li.menu-item-has-children::after {
     font: 8px/1 FontAwesome;
     font-size: 14px;
 	right: 8px;
-    top: 22px;
+    top: 15px;
     font-size: 11px;
     color: #ffffff;
 }	
@@ -2732,10 +2753,11 @@ nav#site-navigation ul li.menu-item-has-children::after {
     filter: contrast(150%);
 }	
 	
-#logo-in-the-title {
-	max-width: 210px;
-	margin-top: 13px;
+#logo-in-the-title{
+    max-width: 210px;
+    margin-top: 13px;
 }
+	
 	
 	/* ALL OTHER PAGES */
 	
@@ -3027,11 +3049,6 @@ body.home .block-section{
     width:70%;
     position:relative;
     top:10px;
-}
-
-.contact-list.col-md-3 {
-    position: relative;
-    bottom: 10px;
 }
 
 img.immagineridotta.alignnone.wp-image-451.size-full {
@@ -4067,6 +4084,10 @@ body:not(.home) .site-header.evision-nav-right{
   transform: rotate(360deg);
 }
 @media screen and (min-width: 992px){	
+    .languages-footer-switch-mobile{
+        display:none;    
+    }
+    
     .side_widget {
     position: fixed;
     z-index: 500;
@@ -4381,6 +4402,26 @@ body:not(.home) .site-header.evision-nav-right{
 }
 
 @media screen and (max-width: 991px){
+    section.evision-wrapper.block-section.wrap-contact .contact-list.col-md-3 {
+    position: relative;
+    bottom: 20px;
+    }
+    section.evision-wrapper.block-section.wrap-contact .contact-list.col-md-4 {
+    }
+
+    nav.navbar.navbar-default.navbar-fixed-top.mynavigation.navbar-fixed-active a.linkita, 
+    nav.navbar.navbar-default.navbar-fixed-top.mynavigation.navbar-fixed-active a.linkeng{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .page-id-53 .undertabletext {
+    bottom: 44px !important;
+}
+
+.rpt_plan.rpt_plan_1 {
+    bottom: 15px !important;
+}
+
   .icon-area,
   .contact-detail {
     display: block;
@@ -4413,9 +4454,10 @@ body:not(.home) .site-header.evision-nav-right{
 .site-info a{
   color: #cccccc !important;
 }
-
-#dynamic-modal .errorformlogoformbrooveraimg {
-    top: 40px !important;
+.icona-traduzione-menu img {
+    max-height: 40px;
+    background:#fff;
+    border-radius: 50%;
 }
 
 .rpt_head {
